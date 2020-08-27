@@ -1,4 +1,4 @@
-# Fortigate-API
+# FortigateVPN-API
 
 Setup an API user on the fortigate and get the key.  The user will need VPN Read/Write access.
 - In the Fortigate go to System > Admin Profiles
