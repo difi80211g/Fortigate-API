@@ -73,7 +73,7 @@ echo "<table border='1'><tr><th>Disconnect</th><th>Username</th></tr>";
 foreach($response[results] as $key=>$value){
      $userindex = $value['index'];
      $username = $value['user_name'];
-     echo "<tr><td><form method='post' action='" . $_SERVER['PHP_SELF'] . "'><input type='hidden' name='userindex' value=' " . $userindex  . "'><input type='submit' name='submit' value='Disconnect'></form></td><td>" . $username . "</td>$
+     echo "<tr><td>&nbsp;<form method='post' action='" . $_SERVER['PHP_SELF'] . "'><input type='hidden' name='userindex' value=' " . $userindex  . "'><input type='submit' name='submit' value='Disconnect'></form></td><td>" . $username . "</td>$
 }
 
 ?>
