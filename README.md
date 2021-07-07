@@ -1,5 +1,8 @@
 # FortigateVPN-API
 
+This creates an interface where users can view the SSL-VPN users logged in and kick them off without needing a admin account on the firewall.  It relies on a restrict API user account setup.
+
+
 Setup an API user on the fortigate and get the key.  The user will need VPN Read/Write access.
 - In the Fortigate go to System > Admin Profiles
 - Create a new profile and set the VPN permissions to Read/Write.  Leave the others as None.
